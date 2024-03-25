@@ -1,0 +1,26 @@
+{
+  "title": "Window tinting for home/office",
+  "text": "window tinting offers numerous benefits for homes and offices, including improved energy efficiency, UV protection, glare reduction, privacy, safety, security, and aesthetic enhancement. By investing in window tinting, homeowners and business owners can create more comfortable, functional, and inviting environments while also enjoying long-term cost savings and environmental benefits",
+  "section": [
+    {
+      "title": "UV Protection",
+      "content": "Window tinting blocks up to 99% of the sun's harmful UV rays, helping to protect furnishings, artwork, flooring, and other interior surfaces from fading, discoloration, and deterioration caused by UV exposure. This helps prolong the lifespan of interior furnishings and reduces the need for costly replacements or repairs",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Glare Reduction",
+      "content": "Tinted windows reduce glare from sunlight and harsh artificial lighting, creating a more comfortable and visually appealing environment for occupants. Reduced glare can improve productivity and concentration in office settings and enhance relaxation and enjoyment in residential spaces",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Privacy",
+      "content": " Tinted windows provide added privacy by making it more difficult for people outside to see into the home or office. This is particularly beneficial for ground-floor rooms, street-facing windows, and areas where privacy is desired without sacrificing natural light",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Safety and Security",
+      "content": "Window tinting can enhance the safety and security of homes and offices by holding glass together in the event of breakage or impact. This helps prevent shattered glass from scattering and reduces the risk of injuries from flying shards. Additionally, tinted windows make it more challenging for intruders to see inside, deterring potential break-ins and theft",
+      "icon": "notes.svg"
+    }
+  ]
+}

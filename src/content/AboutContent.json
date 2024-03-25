@@ -1,0 +1,26 @@
+{
+  "title": "Solfilm for cars",
+  "text": "Window tinting offers several benefits for cars, includingt level, unless you want to customize the default styling.",
+  "section": [
+    {
+      "title": "UV Protection",
+      "content": "Window tinting can block up to 99% of the sun's harmful ultraviolet (UV) rays. This protection helps prevent sunburn and reduces the risk of skin cancer. Additionally, it helps protect the car's interior upholstery, dashboard, and other surfaces from fading and deterioration caused by UV exposure",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Heat Reduction",
+      "content": "Tinted windows can significantly reduce the amount of heat entering the car's interior by blocking infrared radiation. This helps keep the interior cooler, particularly during hot summer months, and reduces the need for air conditioning, thus improving fuel efficiency",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Privacy",
+      "content": "Tinted windows provide added privacy by making it more difficult for people outside the vehicle to see inside. This can be especially beneficial for protecting personal belongings left in the car and for enhancing the comfort and security of passengers",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Safety and Security",
+      "content": "In the event of an accident, window tinting can help hold shattered glass together, reducing the risk of injuries from flying glass shards. Additionally, tinted windows can deter theft by making it harder for thieves to see inside the car and identify valuable items.",
+      "icon": "notes.svg"
+    }
+  ]
+}
