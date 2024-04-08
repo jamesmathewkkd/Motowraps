@@ -55,7 +55,7 @@ const Home = () => {
         content={MissionContent.text}
         // section={MissionContent.section}
         icon="product-launch.svg"
-        id="mission"
+        id="Wrapping"
       />
        <NoteContentBlock
         // type="right"

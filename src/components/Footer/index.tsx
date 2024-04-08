@@ -78,14 +78,7 @@ const Footer = ({ t }: any) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-                {/* <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  /> */}
-                {/* </LanguageSwitch> */}
+               
                 <LanguageSwitch onClick={() => handleChange("se")}>
                   <SvgIcon
                     src="sweden.svg"
@@ -96,70 +89,9 @@ const Footer = ({ t }: any) => {
                 </LanguageSwitch>
               </LanguageSwitchContainer>
             </Col>
-            {/* <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
-            </Col> */}
-            {/* <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large left="true" to="/">
-                {t("Support Center")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Customer Support")}
-              </Large>
-            </Col> */}
+            
           </Row>
-          {/* <Row justify="space-between"> */}
-            {/* <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col> */}
-            {/* <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large left="true" to="/">
-                {t("About")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
-            </Col> */}
-            {/* <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
-            </Col> */}
-          {/* </Row> */}
+
         </Container>
       </FooterSection>
       <Extra>
@@ -169,34 +101,34 @@ const Footer = ({ t }: any) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
+            <Col lg={4} md={4} sm={12} xs={12}>
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
                   src="Footer_logo.jpeg"
                   aria-label="homepage"
-                  width="195px"
+                  width="155px"
                   height="70px"
                 />
               </LogoContainer>
             </NavLink>
+            </Col>
+            <Col lg={4} md={4} sm={6} xs={6}>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                href="https://www.instagram.com/motowraps.se?igsh=MWZjempsbWVwamxiZw%3D%3D&utm_source=qr"
+                src="instagram.svg"
               />
             </FooterContainer>
+            </Col>
+            <Col lg={4} md={4} sm={6} xs={6}>
+            <FooterContainer>
+              <SocialLink
+                href="https://www.facebook.com/share/ipoNyDJL7tKGJcUT/?mibextid=LQQJ4d"
+                src="facebook.svg"
+              />
+            </FooterContainer>
+            </Col>
           </Row>
         </Container>
       </Extra>

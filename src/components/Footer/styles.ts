@@ -41,6 +41,21 @@ export const Extra = styled("section")`
 export const LogoContainer = styled("div")`
   display: flex;
   position: relative;
+
+  @media only screen and (max-width: 768px) {
+    width: 100px;
+    height="50px"
+  }
+
+  @media only screen and (max-width: 411px) {
+    width: 100px;
+    height="50px"
+  }
+
+  @media only screen and (max-width: 320px) {
+    width: 100px;
+    height="50px"
+  }
 `;
 
 export const Para = styled("div")`
