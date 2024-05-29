@@ -53,7 +53,7 @@ export const useForm = (validate: any) => {
   const sendUserEmail = (name: string, email: string, form: any) => {
     emailjs
       .sendForm(
-        "service_sybmgbp",
+        "service_nrv7g4r",
         "template_xsc9vc8",
         form,
         "ojjaRmoVmRvQRGeix"
