@@ -1,13 +1,12 @@
 import { useState, useEffect } from "react";
 import { notification } from "antd";
-import { Fade } from 'react-awesome-reveal';
 import emailjs from "emailjs-com";
 // import { SuccessNotification } from "../../components/SuccessNotification/SuccessNotification";
 
 export const useForm = (validate: any) => {
   const [values, setValues] = useState({});
   const [errors, setErrors] = useState({});
-  const [shouldSubmit, setShouldSubmit] = useState(false);
+  const [shouldSubmit] = useState(false);
 
   const openNotificationWithIcon = () => {
     notification["success"]({
@@ -28,7 +27,7 @@ export const useForm = (validate: any) => {
     event.preventDefault();
     setErrors(validate(values));
     // Your url for API
-    const url = "";
+    // const url = "";
     if (Object.keys(values).length === 3) {
       // emailjs.sendForm('contact_service', 'contact_form', this);
       // axios

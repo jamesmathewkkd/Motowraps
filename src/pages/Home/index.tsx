@@ -10,7 +10,6 @@ const NoteContentBlock = lazy(() => import("../../components/NoteContent"));
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
-const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const FrontImage = lazy(() => import("../../components/FrontImage/Index"));
 // import FadeImages from './FadeImages';

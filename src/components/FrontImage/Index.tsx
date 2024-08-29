@@ -3,7 +3,6 @@ import { withTranslation } from "react-i18next";
 import { Fade } from "react-awesome-reveal";
 
 import {
-  ServiceWrapper
 } from "./styles";
 
 interface Image {

@@ -1,6 +1,5 @@
 import { SvgIconProps } from "../types";
 import {
-  img
 } from "./styles";
 
 export const SvgIcon = ({ src, width, height }: SvgIconProps) => (

@@ -4,8 +4,6 @@ import { SvgIcon } from "../../common/SvgIcon";
 import { ContentBlockProps } from "../ContentBlock/types";
 import {
   LeftContentSection,
-//   Content,
-//   ContentWrapper,
   ServiceWrapper,
   MinTitle,
   MinPara,

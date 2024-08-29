@@ -2,7 +2,6 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
 import { ContentBlockProps } from "../types";
-import { Fade } from "react-awesome-reveal";
 import ImageSlideShow from '../../SlideShow/ppfSlideShow';
 import {
   LeftContentSection,
@@ -22,12 +21,6 @@ const LeftContentBlock = ({
   t,
   id,
 }: ContentBlockProps) => {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
   return (
     <LeftContentSection>
       {/* <Fade direction="left"> */}

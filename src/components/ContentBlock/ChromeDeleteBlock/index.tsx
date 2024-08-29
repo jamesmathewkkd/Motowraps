@@ -1,15 +1,11 @@
-// import { Col, Row } from "antd";
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
-// import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
 import ImageSlideShow from '../../SlideShow/chromeDeleteSlideShow';
 import {
-  // ButtonWrapper,
   Content,
   RightBlockContainer,
-  // LeftContentSection,
   ContentWrapper,
   ServiceWrapper,
   MinTitle,
@@ -25,12 +21,6 @@ const RightBlock = ({
   t,
   id,
 }: ContentBlockProps) => {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
   return (
     <RightBlockContainer>
       {/* <Fade direction="right"> */}
