@@ -48,16 +48,15 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={4} md={4} sm={12} xs={12}>
+            {/* <Col lg={4} md={4} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              {/* <Large to="/">{t("Tell us everything")}</Large> */}
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
               <a href="mailto:maheshzodiac867@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
-            </Col>
+            </Col> */}
             <Col lg={4} md={4} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
