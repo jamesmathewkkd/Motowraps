@@ -10,7 +10,6 @@ import {
   Extra,
   LogoContainer,
   Para,
-  Chat,
   Empty,
   FooterContainer,
   Language,
